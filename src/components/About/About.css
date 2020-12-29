@@ -1,0 +1,49 @@
+.about {
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.about__img-box {
+  border: solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.about__img {
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+  object-fit: contain;
+}
+.about__name {
+  font-size: 20px;
+  text-align: left;
+}
+
+.about__title {
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+  text-align: left;
+}
+
+.about__text {
+  font-size: 20px;
+  text-align: left;
+}
+
+.about__link {
+  text-decoration: none;
+  color: #66cdaa;
+}
+
+.about__link:hover {
+  color: #66dddd;
+  text-decoration: underline dashed;
+}
