@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Playball";
+  src: url("./Playball-Regular.ttf");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-bold.ttf");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter-regular.ttf");
+  font-weight: normal;
+  font-display: swap;
+}

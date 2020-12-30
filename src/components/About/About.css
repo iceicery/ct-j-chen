@@ -7,26 +7,45 @@
   display: flex;
 }
 .about__img-box {
-  padding-right: 50px;
+  padding: 50px;
   margin-right: 50px;
-  display: inline;
-  justify-content: center;
 }
 
 .about__img {
-  margin-top: 100px;
   border-radius: 50%;
   width: 200px;
   height: 200px;
   object-fit: contain;
 }
 .about__name {
+  font-weight: bold;
   width: 200px;
   font-size: 20px;
   text-align: center;
 }
+.about__button-link {
+  text-decoration: none;
+  border: none;
+}
+.about__button {
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  border: solid #fff 0.5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+}
+.about__button:hover {
+  cursor: pointer;
+  color: #66cdaa;
+  border: #66cdaa solid 1px;
+  border-radius: 10px;
+}
 
 .about__title {
+  font-family: "Playball";
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -34,7 +53,8 @@
 }
 
 .about__text {
-  font-size: 20px;
+  font-weight: normal;
+  font-size: 18px;
   text-align: left;
 }
 
