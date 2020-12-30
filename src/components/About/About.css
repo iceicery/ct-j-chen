@@ -7,10 +7,10 @@
   display: flex;
 }
 .about__img-box {
-  border: solid #000;
-  border-radius: 10px;
-  padding: 20px;
+  padding-right: 50px;
   margin-right: 50px;
+  display: inline;
+  justify-content: center;
 }
 
 .about__img {
@@ -18,18 +18,18 @@
   border-radius: 50%;
   width: 200px;
   height: 200px;
-
   object-fit: contain;
 }
 .about__name {
+  width: 200px;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .about__title {
   margin: 0;
   padding: 0;
-  font-size: 70px;
+  font-size: 50px;
   text-align: left;
 }
 
