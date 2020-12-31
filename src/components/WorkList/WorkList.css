@@ -1,13 +1,15 @@
 .worklist {
   margin: 0;
   padding: 0;
-  width: 350px;
+  max-width: 350px;
+  width: 90vw;
   align-self: stretch;
   background-color: #fff;
   border-radius: 10px;
 }
 .worklist__img {
-  width: 350px;
+  max-width: 350px;
+  width: 90vw;
   object-fit: contain;
   border-radius: 10px 10px 0 0;
   margin: 0;

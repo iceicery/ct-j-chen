@@ -1,5 +1,5 @@
 .works {
-  width: 90%;
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 30px;
@@ -18,11 +18,37 @@
   text-align: left;
 }
 .works__list {
-  margin: 70px 0 0 0;
+  margin: 70px 0 0 -5%;
   padding: 0;
-  width: 100%;
+  width: 110%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 30px;
+}
+
+.works__button-link {
+  text-decoration: none;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.works__button {
+  margin-left: calc(50% - 100px);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  border: solid #fff 0.5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+}
+.works__button:hover {
+  cursor: pointer;
+  color: #66cdaa;
+  border: #66cdaa solid 1px;
+  border-radius: 10px;
 }

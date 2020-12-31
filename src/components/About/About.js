@@ -13,7 +13,7 @@ export default function About() {
                 </h2>
                 <a href={Pdf} target="_blank" rel="noreferrer" className="about__button-link"><button className="about__button">Here is my CV</button></a>
             </div>
-            <div>
+            <div className="about__text-box">
                 <h3 className="about__title">About me</h3>
                 <p className="about__text">Hi, I'm an astrophysicist who studies supermassive black holes and their connection to galaxy evolution.
 			    I am currently a research scientist working in the <a className="about__link" target="_blank" rel="noreferrer" href="https://wwwastro.msfc.nasa.gov/">X-ray group</a> of NASA's Marshall Space Flight Center in Huntsville, Alabama.
