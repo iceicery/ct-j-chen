@@ -1,0 +1,42 @@
+.worklist {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  align-self: stretch;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.worklist__img {
+  width: 350px;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  background-color: #fff;
+}
+.worklist__text-box {
+  padding: 15px;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.worklist__title {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.worklist__subtitle {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.link {
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+.link:hover {
+  color: #66dddd;
+  text-decoration: underline dashed;
+}

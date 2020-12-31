@@ -1,0 +1,28 @@
+.works {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.works__title {
+  font-family: "Playball";
+  margin: 30px 0 0 0;
+  padding: 0;
+  font-size: 50px;
+  text-align: left;
+}
+.works__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+.works__list {
+  margin: 70px 0 0 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
