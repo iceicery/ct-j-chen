@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  top: 180px;
+  right: 0;
+  background-image: url("../../images/bg.jpg");
+  color: #000;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.nav__hidden {
+  display: none;
+}
+
+.nav__icon {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.nav__icon:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.nav__button {
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid #fff 0.5px;
+  color: #fff;
+  width: 120px;
+  padding-bottom: 5px;
+}
+.nav__button:hover {
+  border: solid #66cdaa 1.5px;
+  color: #66cdaa;
+  cursor: pointer;
+}

@@ -5,5 +5,8 @@
   font-family: "Inter", Sans-serif, Arial, Helvetica;
   background-color: #282c34;
   color: #fff;
+}
+.App__main {
   position: relative;
+  border: red solid;
 }

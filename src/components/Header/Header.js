@@ -13,6 +13,7 @@ export default function Header() {
                 <button className="header__button"><ScrollLink to="about" offset={-150} smooth={true} duration={500} spy={true}>About Me</ScrollLink></button>
                 <button className="header__button"><ScrollLink to="news" offset={-50} smooth={true} duration={500} spy={true}> News Update</ScrollLink></button>
                 <button className="header__button"><ScrollLink to="works" offset={-50} smooth={true} duration={500} spy={true}>Recent Work</ScrollLink></button>
+                <button className="header__button"><ScrollLink to="contact" offset={-50} smooth={true} duration={500} spy={true}>Contact Me</ScrollLink></button>
             </div>
         </section>
     )
