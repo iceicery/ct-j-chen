@@ -17,12 +17,17 @@ export default class Form extends React.Component {
                 onSubmit={this.submitForm}
                 action="https://formspree.io/f/xrgoowqb"
                 method="POST"
+                className="form"
             >
+                <label>Name:</label>
+                <input type="name" name="name" className="form__input" />
                 <label>Email:</label>
-                <input type="email" name="email" />
+                <input type="email" name="email" className="form__input" />
                 <label>Message:</label>
-                <input type="text" name="message" />
-                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                <textarea type="text" name="message" className="form__message">
+                </textarea>
+                {status === "SUCCESS" ? <p>Thanks, I've got your message. <br />
+If you didn't hear from me in two days, please email me directly to chien-ting dot chen at nasa dot gov. </p> : <button className="form__submit">Submit</button>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
             </form>
         );
