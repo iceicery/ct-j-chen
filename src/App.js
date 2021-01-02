@@ -8,6 +8,7 @@ import News from './components/News/News';
 import Works from './components/Works/Works';
 import NavButton from './components/NavButton/NavButton';
 import NavPopup from './components/NavPopup/NavPopup';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -29,7 +30,13 @@ function App() {
         <Element id="news" name="news">
           <News />
         </Element>
-        <Works />
+        <Element id="works" name="works">
+          <Works />
+        </Element>
+        <Element id="contact" name="contact">
+          <Contact />
+        </Element>
+
       </React.Fragment>
       <Footer />
     </div>

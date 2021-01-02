@@ -13,7 +13,7 @@ export default function Works() {
 		    </p>
             <ul className="works__list">
                 {
-                    works.map((item, i) => <WorkList key={i} image={item.image} title={item.title} text={item.text} />)
+                    works.map((item, i) => <WorkList key={i} image={item.image} title={item.title} text={item.text} dataButton={item.dataButton} dataLink={item.dataLink} paperButton={item.paperButton} paperLink={item.paperLink} />)
                 }
             </ul>
             <a href="https://ui.adsabs.harvard.edu/#search/q=orcid%3A0000-0002-4945-5079&sort=date+desc" target="_blank" rel="noreferrer" className="works__button-link"><button className="works__button">More publications on ADS</button></a>

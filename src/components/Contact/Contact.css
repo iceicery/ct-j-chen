@@ -1,0 +1,35 @@
+.contact {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact__title {
+  font-family: "Playball";
+  margin: 30px 0 0 0;
+  padding: 0;
+  font-size: 50px;
+  text-align: left;
+}
+.contact__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+.contact__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.contact__list-box {
+  list-style: none;
+}
+.contact__list {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}

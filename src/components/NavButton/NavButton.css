@@ -5,3 +5,10 @@
   color: #fff;
   background-color: transparent;
 }
+
+.navButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  border: solid #66cdaa 1px;
+  padding: 2px;
+}
