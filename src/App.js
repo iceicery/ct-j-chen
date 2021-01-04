@@ -9,6 +9,11 @@ import Works from './components/Works/Works';
 import NavButton from './components/NavButton/NavButton';
 import NavPopup from './components/NavPopup/NavPopup';
 import Contact from './components/Contact/Contact';
+import ReactGA from 'react-ga';
+
+const trackingId = "UA-126824471-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);

@@ -21,9 +21,10 @@
 .header__button-box {
   display: flex;
   justify-content: right;
+  width: 100%;
 }
 .header__button {
-  height: 30px;
+  padding-bottom: 10px;
   margin-right: 10px;
   font-size: 18px;
   background-color: transparent;
@@ -36,4 +37,22 @@
   border: solid #66cdaa 1.5px;
   color: #66cdaa;
   cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .header__button-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+  }
+  .header__button {
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid #fff 1.5px;
+    color: #fff;
+  }
 }

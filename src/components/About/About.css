@@ -73,3 +73,22 @@
   color: #66dddd;
   text-decoration: underline dashed;
 }
+@media screen and (max-width: 1190px) and (min-width: 1055px) {
+  .about {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  .about {
+    width: 90%;
+  }
+  .about__img-box {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .about__text-box {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

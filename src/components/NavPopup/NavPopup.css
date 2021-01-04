@@ -18,12 +18,22 @@
 }
 
 .nav__icon {
-  background-color: transparent;
+  background-color: rgba(40, 44, 52, 0.5);
   color: #fff;
   border: none;
   position: absolute;
   top: -30px;
   right: 3px;
+}
+@media screen and (max-width: 901px) {
+  .nav__icon {
+    background-color: rgba(40, 44, 52, 0.5);
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 3px;
+  }
 }
 
 .nav__icon:hover {
