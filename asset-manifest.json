@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d0c25fe.chunk.css",
+    "main.js": "/static/js/main.4b005c43.chunk.js",
+    "main.js.map": "/static/js/main.4b005c43.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8446714c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8446714c.js.map",
+    "static/js/2.125580c7.chunk.js": "/static/js/2.125580c7.chunk.js",
+    "static/js/2.125580c7.chunk.js.map": "/static/js/2.125580c7.chunk.js.map",
+    "static/js/3.324da62a.chunk.js": "/static/js/3.324da62a.chunk.js",
+    "static/js/3.324da62a.chunk.js.map": "/static/js/3.324da62a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d0c25fe.chunk.css.map": "/static/css/main.0d0c25fe.chunk.css.map",
+    "static/js/2.125580c7.chunk.js.LICENSE.txt": "/static/js/2.125580c7.chunk.js.LICENSE.txt",
+    "static/media/2013.a132a750.jpg": "/static/media/2013.a132a750.jpg",
+    "static/media/2015.e2f80571.jpg": "/static/media/2015.e2f80571.jpg",
+    "static/media/2015_2.58d13a1f.jpg": "/static/media/2015_2.58d13a1f.jpg",
+    "static/media/2016.e05c2979.jpg": "/static/media/2016.e05c2979.jpg",
+    "static/media/App.css": "/static/media/Playball-Regular.397120f5.ttf",
+    "static/media/NavPopup.css": "/static/media/bg.312fb72e.jpg",
+    "static/media/cdfs.1dea61d0.jpg": "/static/media/cdfs.1dea61d0.jpg",
+    "static/media/cosmicvariance.2e2d62a6.png": "/static/media/cosmicvariance.2e2d62a6.png",
+    "static/media/ctchen_cv.d8d7aee1.pdf": "/static/media/ctchen_cv.d8d7aee1.pdf",
+    "static/media/lss.a46321b6.jpg": "/static/media/lss.a46321b6.jpg",
+    "static/media/news-ART-XC.f262491a.JPG": "/static/media/news-ART-XC.f262491a.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8446714c.js",
+    "static/js/2.125580c7.chunk.js",
+    "static/css/main.0d0c25fe.chunk.css",
+    "static/js/main.4b005c43.chunk.js"
+  ]
+}
