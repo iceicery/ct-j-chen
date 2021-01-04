@@ -49,7 +49,7 @@ export const works = [
         they are heavily obscured. This will provide a more complete picture of the AGN population in dwarf galaxies,
         and better constrain the boundary condition for different primordial black seeding scenarios.
     </p>,
-        paperButton: "ApJ Article",
+        paperButton: "Article",
         paperLink: "https://arxiv.org/abs/1701.08768"
     },
     {
@@ -61,7 +61,7 @@ export const works = [
         This is essential in the studies of AGN and galaxy coevolution since the choice of SMBH accretion rate indicators
         can actually alter the interpretation of the results.
     </p>,
-        paperButton: "ApJ Article",
+        paperButton: "Article",
         paperLink: "https://arxiv.org/abs/1701.05207",
     },
     {
@@ -88,7 +88,7 @@ export const works = [
     </p>,
         paperButton: "Article",
         paperLink: "http://adsabs.harvard.edu/abs/2013ApJ...773....3C",
-        dataButton: "SciTech Daily",
+        dataButton: "Short Summary",
         dataLink: "http://scitechdaily.com/a-link-between-black-hole-accretion-rate-and-star-formation-rate/",
     }
 
