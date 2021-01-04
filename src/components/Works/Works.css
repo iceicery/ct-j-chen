@@ -18,13 +18,27 @@
   text-align: left;
 }
 .works__list {
-  margin: 70px 0 0 -5%;
+  margin: 70px 0 0 0;
   padding: 0;
-  width: 110%;
-  display: flex;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: wrap;
-  justify-content: flex-start;
   gap: 30px;
+}
+@media screen and (max-width: 1300px) and (min-width: 950px) {
+  .works__list {
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 949px) {
+  .works__list {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 
 .works__button-link {
