@@ -11,7 +11,7 @@ import NavPopup from './components/NavPopup/NavPopup';
 import Contact from './components/Contact/Contact';
 import ReactGA from 'react-ga';
 
-const trackingId = "UA-126824471-1"; // Replace with your Google Analytics tracking ID
+const trackingId = 'UA-60986688-3'; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
